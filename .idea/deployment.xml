@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="PAWTASTIC" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="PAWTASTIC">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/pawtastic" local="$PROJECT_DIR$" web="/pawtastic" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
