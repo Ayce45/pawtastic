@@ -1,0 +1,30 @@
+#hero {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  height: 800px;
+  background-image: url("../img/hero-background.png");
+  background-size: cover;
+  .img-container .img-title {
+    bottom: 0px;
+    left: 0px;
+  }
+  h1 {
+    margin-bottom: 60px;
+  }
+  .spacer {
+    width: 360px;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    li {
+      a {
+        color: white;
+      }
+      align-items: center;
+      display: flex;
+      font-family: "Roboto Light";
+      font-size: 24px;
+    }
+  }
+}

@@ -1,0 +1,245 @@
+/** POLICES*/
+@font-face {
+  font-family: "Merriweather Bold";
+  src: url("../font/Merriweather/Merriweather-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("../font/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Light";
+  src: url("../font/Roboto/Roboto-Light.ttf");
+}
+
+$primary: #ebd0ce;
+$secondary: #8d5f26;
+$black: #545871;
+$grey: #9597a6;
+$white: #ffffff;
+
+$h1-size: 50px;
+$h2-size: 26px;
+
+/** RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Roboto Regular";
+  color: $black;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+}
+
+/** UTIL */
+
+.container {
+  width: calc(100vw - 256px);
+  margin-left: auto !important;
+  margin-right: auto !important;
+  height: 100%;
+}
+
+.col-6 {
+  width: calc(100vw - 256px / 2);
+}
+
+.col-4 {
+  width: calc((100vw - 256px) / 3);
+}
+
+.row {
+  @extend .flex;
+  @extend .space-between;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.align-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.img-container {
+  position: relative;
+  .img-title {
+    position: absolute;
+    color: $white;
+  }
+}
+
+.text-white {
+  color: $white;
+}
+
+.text-grey {
+  color: $grey;
+}
+
+.text-align-center {
+  text-align: center;
+}
+/** MARGIN */
+
+@for $i from 1 through 5 {
+  .m-#{$i} {
+    margin: #{$i}0px;
+  }
+  .mt-#{$i} {
+    margin-top: #{$i}0px;
+  }
+  .mb-#{$i} {
+    margin-bottom: #{$i}0px;
+  }
+  .ml-#{$i} {
+    margin-left: #{$i}0px;
+  }
+  .mr-#{$i} {
+    margin-right: #{$i}0px;
+  }
+}
+
+/** PADDING */
+
+@for $i from 1 through 5 {
+  .p-#{$i} {
+    padding: #{$i}0px;
+  }
+  .pt-#{$i} {
+    padding-top: #{$i}0px;
+  }
+  .pb-#{$i} {
+    padding-bottom: #{$i}0px;
+  }
+  .pl-#{$i} {
+    padding-left: #{$i}0px;
+  }
+  .pr-#{$i} {
+    padding-right: #{$i}0px;
+  }
+}
+
+/** TITLE */
+h1,
+.h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-top: 25px;
+  padding-left: 10px;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+h1,
+.h1 {
+  font-family: "Merriweather Bold";
+  font-size: $h1-size;
+  line-height: 56px;
+}
+
+h2,
+.h2 {
+  font-family: "Roboto Light";
+  font-size: $h2-size;
+  line-height: 32px;
+}
+
+h2 {
+  font-family: "Roboto Light";
+  font-size: $h2-size;
+  margin-bottom: 45px;
+}
+
+/** OVERFLOW */
+
+.ofh {
+  overflow: hidden;
+}
+
+/** TABLE */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid $white;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: darken($white, 10%);
+}
+
+tr:hover {
+  background-color: $white;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: $primary;
+  color: $white;
+}
+
+/** BUTTON */
+
+.btn {
+  @extend .p-1;
+  @extend .pl-3;
+  @extend .pr-3;
+  border-radius: 25px;
+  font-family: "Roboto Light";
+  &.btn-black {
+    color: $white;
+    background-color: $black;
+  }
+  &.btn-white {
+    color: $black;
+    background-color: $white;
+  }
+  &.btn-primary {
+    color: $black;
+    background-color: $primary;
+  }
+}

@@ -1,0 +1,28 @@
+#pets {
+  padding-top: 120px;
+  padding-bottom: 90px;
+  background-color: $black;
+  h1 {
+    margin-bottom: 75px;
+  }
+  .pets-container {
+    .pets {
+      @extend .p-3;
+      background-color: $white;
+      border-radius: 5px;
+      .pets-text {
+        @extend .p-3;
+        display: inline-grid;
+        span {
+          font-family: "Merriweather Bold";
+          font-size: $h2-size;
+          margin-bottom: 5px;
+        }
+      }
+    }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 70px;
+    margin-bottom: 70px;
+  }
+}
