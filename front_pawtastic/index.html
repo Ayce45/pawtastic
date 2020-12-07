@@ -7,13 +7,15 @@
     <title>Pawtastic</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </head>
 
 <body>
     <header id="hero">
         <div class="container img-container">
             <nav class="row">
-                <a href="#"><img src="img/logo.png" alt="logo"></a>
+                <a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
                 <ul class="col-4">
                     <li><a href="#">About us</a></li>
                     <li><a href="#">Reviews</a></li>
@@ -23,11 +25,13 @@
             </nav>
             <div class="flex flex-end">
                 <div class="col-4">
-                    <h1 class="text-white">We care for
+                    <h1 data-aos="fade-up" class="text-white">We care for
                         your furry little
                         loved ones while
                         you’re away</h1>
-                    <a class="btn btn-white" href="#">Schedule a visit</a>
+                    <div class="text-align-center-mobile">
+                        <a data-aos-delay="300" data-aos="fade-up" class="btn btn-white" href="#">Schedule a visit</a>
+                    </div>
                 </div>
             </div>
             <span class="img-title">Ozzie in Brooklyn</span>
@@ -36,15 +40,18 @@
     <section id="expert">
         <div class="container row">
             <div class="col-6">
-                <h1>Expert care for your furry, feathery, or scaley friend</h1>
-                <h2>We know how stressful it is to leave your pets at home alone. We’re a team of experienced animal
+                <h1 data-aos="fade-right">Expert care for your furry, feathery, or scaley friend</h1>
+                <h2 data-aos="fade-right">We know how stressful it is to leave your pets at home alone. We’re a team of
+                    experienced animal
                     caregivers,
                     well
                     connected to local veterinarians. Trust to us to love them like our own, and to keep them safe and
                     happy
                     till you’re
                     home.</h2>
-                <a class="btn btn-black" href="#">Schedule a visit</a>
+                <div class="text-align-center-mobile">
+                    <a data-aos-delay="300" data-aos="fade-up" class="btn btn-black" href="#">Schedule a visit</a>
+                </div>
             </div>
             <div class="spacer"></div>
             <div class="col-6">
@@ -65,16 +72,20 @@
     </section>
     <section id="services">
         <div class="row">
-            <div class="col-6 img-container">
+            <div class="col-6 img-container not-in-mobile">
                 <span class="img-title">Ollie and Maggie</span>
             </div>
             <div class="col-6">
                 <div class="right-text">
-                    <h1>Services tailored to your needs</h1>
-                    <h2>Schedule one-off or recurring home visits. An experienced member of our team will spend time
+                    <h1 data-aos="fade-left">Services tailored to your needs</h1>
+                    <h2 data-aos="fade-left">Schedule one-off or recurring home visits. An experienced member of our
+                        team will spend time
                         with your pet, feed them,
                         change cat litter trays, take the dog for a walk, and anything else you need.</h2>
-                    <a class="btn btn-black" href="#">Schedule a visit</a>
+                    <div class="text-align-center-mobile">
+
+                        <a data-aos-delay="300" data-aos="fade-up" class="btn btn-black" href="#">Schedule a visit</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -83,16 +94,16 @@
         <div class="container">
             <h1 class="text-white text-align-center">Pets (and their humans) love us</h1>
             <div class="pets-container">
-                <div class="pets row">
-                    <img src="img/pets-lindsay.png" alt="lindsay">
+                <div data-aos="zoom-in" class="pets row">
+                    <img class="not-in-mobile" src="img/pets-lindsay.png" alt="lindsay">
                     <div class="pets-text">
                         <span>Lindsay M.</span>
                         <q>Pawtastic is awesome! They are passionate about pets and employ trustworthy, dependable
                             staff. We love them!</q>
                     </div>
                 </div>
-                <div class="pets row">
-                    <img src="img/pets-andrew.png" alt="andrew">
+                <div data-aos="zoom-in" class="pets row">
+                    <img class="not-in-mobile" src="img/pets-andrew.png" alt="andrew">
                     <div class="pets-text">
                         <span>Andrew C.</span>
                         <q>I’m a repeat customer because of their amazing care for our two cats when we travel. I can
@@ -100,8 +111,8 @@
                             there!</q>
                     </div>
                 </div>
-                <div class="pets row">
-                    <img src="img/pets-meg.png" alt="meg">
+                <div data-aos="zoom-in" class="pets row">
+                    <img class="not-in-mobile" src="img/pets-meg.png" alt="meg">
                     <div class="pets-text">
                         <span>Meg F.</span>
                         <q>I use them for mid day walks and our babies are so happy with the exercise and love during
@@ -109,8 +120,8 @@
                             difference!</q>
                     </div>
                 </div>
-                <div class="pets row">
-                    <img src="img/pets-jackie.png" alt="pets-jackie.png">
+                <div data-aos="zoom-in" class="pets row">
+                    <img class="not-in-mobile" src="img/pets-jackie.png" alt="pets-jackie.png">
                     <div class="pets-text">
                         <span>Jackie B.</span>
                         <q>I just returned from two weeks away to a sociable, calm cat and no drama. Thanks for a great
@@ -118,19 +129,23 @@
                     </div>
                 </div>
             </div>
-            <div class="text-align-center"><a href="#" class="btn btn-primary">Read all reviews</a></div>
+            <div data-aos-delay="300" data-aos="fade-up" class="text-align-center"><a href="#"
+                    class="btn btn-primary">Read all reviews</a></div>
         </div>
     </section>
     <section id="options">
         <div class="container">
-            <h1 class="text-align-center">Affordable options, <br>
+            <h1 data-aos="fade-down" class="text-align-center">Affordable options, <br>
                 tailored to your needs</h1>
-            <h2 class="text-align-center">All services include live updates including photos and chat, <br>
+            <h2 data-aos="fade-down" class="text-align-center">All services include live updates including photos and
+                chat, <br>
                 as well as notifications of sitter arrival and departure times.</h2>
             <div class="options-container">
-                <div class="options flex flex-column">
-                    <div class="options-round flex align-center">
-                        <img src="img/options-flower.png" alt="flower">
+                <div data-aos="fade-right" class="options flex flex-column">
+                    <div class="flex align-center">
+                        <div class="options-round">
+                            <img src="img/options-flower.png" alt="flower">
+                        </div>
                     </div>
                     <div class="options-text flex flex-column">
                         <span class="h1 text-align-center">Dog walk</span>
@@ -144,9 +159,12 @@
                         <span class="options-per">PER 30 MIN WALK</span>
                     </div>
                 </div>
-                <div class="options flex flex-column">
-                    <div class="options-round flex align-center">
-                        <img src="img/options-wave.png" alt="flower">
+                <div data-aos="fade-up" class="options flex flex-column">
+                    <div class="flex align-center">
+
+                        <div class="options-round flex align-center">
+                            <img src="img/options-wave.png" alt="flower">
+                        </div>
                     </div>
                     <div class="options-text flex flex-column">
                         <span class="h1 text-align-center">Drop-in visit</span>
@@ -158,9 +176,12 @@
                         <span class="options-per">PER 30 MIN VISIT</span>
                     </div>
                 </div>
-                <div class="options flex flex-column">
-                    <div class="options-round flex align-center">
-                        <img src="img/options-home.png" alt="flower">
+                <div data-aos="fade-left" class="options flex flex-column">
+                    <div class="flex align-center">
+
+                        <div class="options-round flex align-center">
+                            <img src="img/options-home.png" alt="flower">
+                        </div>
                     </div>
                     <div class="options-text flex flex-column">
                         <span class="h1 text-align-center">House sitting</span>
@@ -175,17 +196,20 @@
                 </div>
             </div>
             <div class="text-align-center">
-                <a href="#" class="btn btn-black">Schedule a service</a>
+                <a data-aos-delay="300" data-aos="fade-up" href="#" class="btn btn-black">Schedule a service</a>
             </div>
         </div>
     </section>
     <section id="contact">
         <div class="flex flex-column align-items-center">
-            <span class="h1 text-grey">Contact</span>
-            <span class="h1">481-624-3240</span>
-            <span class="h1">Email us</span>
+            <a href="#" class="mb-4"><span class="h1 text-grey">Contact</span></a>
+            <a href="#" class="mb-4"><span class="h1">481-624-3240</span></a>
+            <a href="#" class="mb-4"><span class="h1 text-underline">Email us</span></a>
         </div>
     </section>
 </body>
+<script>
+    AOS.init();
+</script>
 
 </html>

@@ -9,6 +9,9 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 60px;
+    @media (max-width: 1440px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
     .options {
       border-radius: 5px;
       border: 1px solid #dadbe6;
@@ -26,6 +29,8 @@
       }
       .options-round {
         margin-top: -60px;
+        height: 100px;
+        width: 100px;
       }
       .options-price {
         border-top: 1px solid #dadbe6;

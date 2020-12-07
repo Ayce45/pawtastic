@@ -11,6 +11,9 @@
   .right-text {
     padding-left: 160px;
     padding-right: 130px;
+    @media (max-width: 1440px) {
+      padding: 0;
+    }
   }
   .img-container .img-title {
     left: 100px;
