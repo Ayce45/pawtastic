@@ -3,14 +3,41 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="eab817a1-6a6b-4ffc-81e1-81511db347dd" name="Default Changelist" comment="" />
+    <list default="true" id="eab817a1-6a6b-4ffc-81e1-81511db347dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front_pawtastic/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_pawtastic/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front_pawtastic/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../front_pawtastic/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front_pawtastic/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_pawtastic/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front_pawtastic/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../front_pawtastic/css/style.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front_pawtastic/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_pawtastic/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front_pawtastic/scss/_util.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../front_pawtastic/scss/_util.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front_pawtastic/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../front_pawtastic/scss/style.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -20,6 +47,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -134,6 +164,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ie5whmB5wMsxS0y8FROVJSpJS9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -146,7 +177,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/sertizh/app/clubsystem/source-code-clubsystem" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -171,11 +202,25 @@
       <option name="presentableId" value="Default" />
       <updated>1602255458811</updated>
       <workItem from="1602255460721" duration="17030000" />
+      <workItem from="1607438558062" duration="167000" />
+      <workItem from="1607611076576" duration="27000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="75" key="#Deployment" timestamp="1602323727177">
@@ -194,6 +239,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="172" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1602319120372" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1607611102146">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1607611102146" />
     <state x="510" y="140" key="NewPhpClassDialog" timestamp="1602319700022">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

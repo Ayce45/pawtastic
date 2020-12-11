@@ -1,0 +1,24 @@
+#form {
+  width: calc(100vw - 490px);
+  background-color: #f7eceb;
+  .container {
+    width: calc(100vw - 490px - 128px);
+  }
+  label {
+    padding-bottom: 10px;
+  }
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    &.form-control-6 {
+      width: calc((100vw - 490px - 128px) / 2 - 15px);
+    }
+    input {
+      padding: 10px;
+      border: 1px solid #e6dbda;
+      &::-webkit-input-placeholder {
+        color: $primary;
+      }
+    }
+  }
+}

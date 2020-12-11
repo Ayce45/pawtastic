@@ -50,6 +50,10 @@ a {
   color: $black;
 }
 
+#schedule {
+  overflow: hidden;
+}
+
 /** UTIL */
 
 .container {
@@ -73,6 +77,13 @@ a {
 
 .col-4 {
   width: calc((100vw - 256px) / 3);
+  @media (max-width: 1440px) {
+    width: calc(100vw - 60px);
+  }
+}
+
+.col-8 {
+  width: calc((100vw - 256px) / (2 / 3));
   @media (max-width: 1440px) {
     width: calc(100vw - 60px);
   }
