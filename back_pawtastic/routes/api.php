@@ -17,6 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get("getSpecies", [\App\Http\Controllers\SpecieController::class, 'index']);
 Route::get("getThings", [\App\Http\Controllers\ThingController::class, 'index']);
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
+Route::middleware('auth:api')->get('/user', function (Request $request, User $user) {
     return $request->user();
 });
